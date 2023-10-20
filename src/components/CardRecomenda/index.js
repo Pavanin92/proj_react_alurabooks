@@ -15,7 +15,7 @@ const Card = styled.div`
 `;
 
 const Button = styled.button`
-  background-color: #eb9b00;
+  background-color: #6BC34B;
   color: #fff;
   padding: 10px 0px;
   font-size: 16px;
@@ -48,7 +48,7 @@ function CardRecomenda({ title, subtitle, description, img }) {
   return (
     <Card>
       <div>
-        <Titulo fontSize="24px" cor="#EB9B00" align="left">
+        <Titulo fontSize="24px" cor="#6BC34B" align="left">
           {title}
         </Titulo>
         <Subtitle>{subtitle}</Subtitle>
